@@ -11,4 +11,6 @@ console.log(typeof(edad))
 
 console.log('Los datos ingresados son: ', apellido,' ,', nombre,' ,tiene ',edad, ' años'	)
 
-alert('Los datos ingresados son: '+ apellido+', '+ nombre+', tiene '+edad+ ' años')
+// alert('Los datos ingresados son: '+ apellido+', '+ nombre+', tiene '+edad+ ' años')
+alert(`Los datos ingresados son: ${apellido}, ${nombre} - tiene ${edad} años`)
+
